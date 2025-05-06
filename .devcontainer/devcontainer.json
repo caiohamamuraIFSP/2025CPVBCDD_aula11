@@ -5,6 +5,7 @@
      "hostRequirements": {
          "cpus": 2
      },
+     "postCreateCommand": "bash .devcontainer/install.sh",
      // open app.tsx once container is built
      "customizations": {
          "codespaces": {
